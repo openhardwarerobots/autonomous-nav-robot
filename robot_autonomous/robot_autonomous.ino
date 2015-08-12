@@ -51,7 +51,7 @@ int backward() {
   
   send_motor_command(speed_motor1,direction_motor1,200,0);
   send_motor_command(speed_motor2,direction_motor2,200,0);
-  return 1
+  return 1;
 }
 
 // Left
